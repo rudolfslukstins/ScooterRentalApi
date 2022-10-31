@@ -3,9 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ScooterRental", "ScooterRental\ScooterRental.csproj", "{69D057DC-FBF5-489C-946D-C7D3A8A00DDD}"
-EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ScooterRental.Tests", "ScooterRental.Tests\ScooterRental.Tests.csproj", "{0D0B899F-AA8F-46DD-8C02-CB832643952E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ScooterRentalApi", "ScooterRentalApi\ScooterRentalApi.csproj", "{454D1EDE-0B6E-4090-80E0-8D4886D5A213}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ScooterRental.Core", "ScooterRental.Core\ScooterRental.Core.csproj", "{CF2B7C49-A0B5-45B7-8BC7-92226D2CED7C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ScooterRental.Services", "ScooterRental.Services\ScooterRental.Services.csproj", "{82F7531B-5688-4397-A12F-E0F5DF307EFA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ScooterRental.Db", "ScooterRental.Db\ScooterRental.Db.csproj", "{486A8407-72B7-4133-8372-C99E9745F1EA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -13,14 +19,26 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{69D057DC-FBF5-489C-946D-C7D3A8A00DDD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{69D057DC-FBF5-489C-946D-C7D3A8A00DDD}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{69D057DC-FBF5-489C-946D-C7D3A8A00DDD}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{69D057DC-FBF5-489C-946D-C7D3A8A00DDD}.Release|Any CPU.Build.0 = Release|Any CPU
 		{0D0B899F-AA8F-46DD-8C02-CB832643952E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{0D0B899F-AA8F-46DD-8C02-CB832643952E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0D0B899F-AA8F-46DD-8C02-CB832643952E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0D0B899F-AA8F-46DD-8C02-CB832643952E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{454D1EDE-0B6E-4090-80E0-8D4886D5A213}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{454D1EDE-0B6E-4090-80E0-8D4886D5A213}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{454D1EDE-0B6E-4090-80E0-8D4886D5A213}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{454D1EDE-0B6E-4090-80E0-8D4886D5A213}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CF2B7C49-A0B5-45B7-8BC7-92226D2CED7C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CF2B7C49-A0B5-45B7-8BC7-92226D2CED7C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CF2B7C49-A0B5-45B7-8BC7-92226D2CED7C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CF2B7C49-A0B5-45B7-8BC7-92226D2CED7C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{82F7531B-5688-4397-A12F-E0F5DF307EFA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{82F7531B-5688-4397-A12F-E0F5DF307EFA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{82F7531B-5688-4397-A12F-E0F5DF307EFA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{82F7531B-5688-4397-A12F-E0F5DF307EFA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{486A8407-72B7-4133-8372-C99E9745F1EA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{486A8407-72B7-4133-8372-C99E9745F1EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{486A8407-72B7-4133-8372-C99E9745F1EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{486A8407-72B7-4133-8372-C99E9745F1EA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

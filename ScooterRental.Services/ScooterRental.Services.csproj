@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNet.WebApi.Core" Version="5.2.9" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ScooterRental.Core\ScooterRental.Core.csproj" />
+    <ProjectReference Include="..\ScooterRental.Db\ScooterRental.Db.csproj" />
+  </ItemGroup>
+
+</Project>
